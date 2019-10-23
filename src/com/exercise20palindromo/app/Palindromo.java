@@ -7,7 +7,7 @@ public class Palindromo
 	{
 		String cadPalindrome1 ="Anita lava la tina.";
 		String cadPalindrome2 ="Yo dono rosas, oro no doy!!!!";
-		String cadPalindrome3 = "Isaac no ronca asi";
+		String cadPalindrome3 = "saac no ronca asi";
 		
 		System.out.println(StringApplications.isPalindrome(cadPalindrome1));
 		System.out.println(StringApplications.isPalindrome(cadPalindrome2));

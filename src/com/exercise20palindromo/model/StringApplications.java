@@ -12,7 +12,10 @@ public class StringApplications
     	cadClean = cadClean.toLowerCase();
     	for(int i=0;i<cadClean.length();i++)
     	{
-    		if(cadClean.charAt(i)!=cadClean.charAt((cadClean.length()-1)-i));
+    		if(cadClean.charAt(i)!=cadClean.charAt((cadClean.length()-1)-i))
+    		{
+    			isPal=false;
+    		}
     	}
     	System.out.println(cadClean);
     	return isPal;
